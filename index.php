@@ -8,7 +8,10 @@
 </head>
 <body>
     <?php
-      echo "hello world";
+      $name = "abdul Barik";
+      $phone = "01738601909";
+      $gmail = "abdulbarik1997m@gmail.com";
+      echo $name . "<br/>" . $phone . "<br/>" . $gmail;
     ?>
 </body>
 </html>
