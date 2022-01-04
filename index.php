@@ -9,9 +9,9 @@
 <body>
     <?php
       $name = "abdul Barik";
-      $phone = "01738601909";
-      $gmail = "abdulbarik1997m@gmail.com";
-      echo $name . "<br/>" . $phone . "<br/>" . $gmail;
+      $phone = 1738601909;
+      $gmail = "";
+      echo var_dump($gmail);
     ?>
 </body>
 </html>
