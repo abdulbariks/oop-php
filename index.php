@@ -8,10 +8,21 @@
 </head>
 <body>
     <?php
-      $name = "abdul Barik";
-      $phone = 1738601909;
-      $gmail = "";
-      echo var_dump($gmail);
+      $userNamne="Abdul Barik";
+      $password=123456;
+         if($userNamne == "Abdul Barik"){
+             if($password == 123456){
+
+                echo "welCome" . " " . $userNamne;
+             }
+             else{
+                 echo "Password is wrong";
+
+             }
+            }
+         else{
+            echo "User Name is wrong";
+         }
     ?>
 </body>
 </html>
