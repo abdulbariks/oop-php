@@ -9,19 +9,22 @@
 <body>
     <?php
       $userNamne="Abdul Barik";
-      $password=123456;
-         if($userNamne == "Abdul Barik"){
-             if($password == 123456){
-
-                echo "welCome" . " " . $userNamne;
-             }
-             else{
-                 echo "Password is wrong";
-
-             }
-            }
-         else{
-            echo "User Name is wrong";
+           switch ($userNamne) {
+               case 'Barik':
+                   echo "My Name is " . $userNamne;
+                   break;
+                case 'Abdul':
+                    echo "My Name is " . $userNamne;
+                    break;
+                case 'Abdul Barik':
+                     echo "My Name is " . $userNamne;
+                     break;
+                    
+                
+                default:
+                   echo "No Match Name";
+                   break;
+        
          }
     ?>
 </body>
