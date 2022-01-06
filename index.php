@@ -8,24 +8,9 @@
 </head>
 <body>
     <?php
-      $userNamne="Abdul Barik";
-           switch ($userNamne) {
-               case 'Barik':
-                   echo "My Name is " . $userNamne;
-                   break;
-                case 'Abdul':
-                    echo "My Name is " . $userNamne;
-                    break;
-                case 'Abdul Barik':
-                     echo "My Name is " . $userNamne;
-                     break;
-                    
-                
-                default:
-                   echo "No Match Name";
-                   break;
-        
-         }
+           for($i = 1 ; $i <= 10 ; $i++){
+               echo $i ."<br>";
+           }
     ?>
 </body>
 </html>
